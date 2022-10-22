@@ -1,0 +1,96 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     PC2
+Instances:    1493
+Attributes:   37
+              BRANCH_COUNT
+              CALL_PAIRS
+              LOC_CODE_AND_COMMENT
+              LOC_COMMENTS
+              CONDITION_COUNT
+              CYCLOMATIC_COMPLEXITY
+              CYCLOMATIC_DENSITY
+              DECISION_COUNT
+              DECISION_DENSITY
+              DESIGN_COMPLEXITY
+              DESIGN_DENSITY
+              EDGE_COUNT
+              ESSENTIAL_COMPLEXITY
+              ESSENTIAL_DENSITY
+              LOC_EXECUTABLE
+              PARAMETER_COUNT
+              HALSTEAD_CONTENT
+              HALSTEAD_DIFFICULTY
+              HALSTEAD_EFFORT
+              HALSTEAD_ERROR_EST
+              HALSTEAD_LENGTH
+              HALSTEAD_LEVEL
+              HALSTEAD_PROG_TIME
+              HALSTEAD_VOLUME
+              MAINTENANCE_SEVERITY
+              MODIFIED_CONDITION_COUNT
+              MULTIPLE_CONDITION_COUNT
+              NODE_COUNT
+              NORMALIZED_CYLOMATIC_COMPLEXITY
+              NUM_OPERANDS
+              NUM_OPERATORS
+              NUM_UNIQUE_OPERANDS
+              NUM_UNIQUE_OPERATORS
+              NUMBER_OF_LINES
+              PERCENT_COMMENTS
+              LOC_TOTAL
+              Defective
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 37 Defective):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.02889   35 PERCENT_COMMENTS
+ 0.023     17 HALSTEAD_CONTENT
+ 0.02261    4 LOC_COMMENTS
+ 0.0204     3 LOC_CODE_AND_COMMENT
+ 0.01907   32 NUM_UNIQUE_OPERANDS
+ 0.01812   30 NUM_OPERANDS
+ 0.01734   34 NUMBER_OF_LINES
+ 0.01683   31 NUM_OPERATORS
+ 0.01616   21 HALSTEAD_LENGTH
+ 0.01602   24 HALSTEAD_VOLUME
+ 0.01567   20 HALSTEAD_ERROR_EST
+ 0.0143    23 HALSTEAD_PROG_TIME
+ 0.0143    19 HALSTEAD_EFFORT
+ 0.01368   29 NORMALIZED_CYLOMATIC_COMPLEXITY
+ 0.01346   36 LOC_TOTAL
+ 0.01212    7 CYCLOMATIC_DENSITY
+ 0.00935   28 NODE_COUNT
+ 0.00906   18 HALSTEAD_DIFFICULTY
+ 0.00899   22 HALSTEAD_LEVEL
+ 0.00781   12 EDGE_COUNT
+ 0.00778   33 NUM_UNIQUE_OPERATORS
+ 0.00675   26 MODIFIED_CONDITION_COUNT
+ 0.00671   11 DESIGN_DENSITY
+ 0.00657    1 BRANCH_COUNT
+ 0.00649   27 MULTIPLE_CONDITION_COUNT
+ 0.00649    5 CONDITION_COUNT
+ 0.00614    2 CALL_PAIRS
+ 0.00584    6 CYCLOMATIC_COMPLEXITY
+ 0.005      8 DECISION_COUNT
+ 0         16 PARAMETER_COUNT
+ 0         13 ESSENTIAL_COMPLEXITY
+ 0         14 ESSENTIAL_DENSITY
+ 0         10 DESIGN_COMPLEXITY
+ 0         25 MAINTENANCE_SEVERITY
+ 0         15 LOC_EXECUTABLE
+ 0          9 DECISION_DENSITY
+
+Selected attributes: 35,17,4,3,32,30,34,31,21,24,20,23,19,29,36,7,28,18,22,12,33,26,11,1,27,5,2,6,8,16,13,14,10,25,15,9 : 36
+

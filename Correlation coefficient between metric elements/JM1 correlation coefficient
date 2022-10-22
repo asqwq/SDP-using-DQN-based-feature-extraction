@@ -1,0 +1,66 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     JM1
+Instances:    9591
+Attributes:   22
+              LOC_BLANK
+              BRANCH_COUNT
+              LOC_CODE_AND_COMMENT
+              LOC_COMMENTS
+              CYCLOMATIC_COMPLEXITY
+              DESIGN_COMPLEXITY
+              ESSENTIAL_COMPLEXITY
+              LOC_EXECUTABLE
+              HALSTEAD_CONTENT
+              HALSTEAD_DIFFICULTY
+              HALSTEAD_EFFORT
+              HALSTEAD_ERROR_EST
+              HALSTEAD_LENGTH
+              HALSTEAD_LEVEL
+              HALSTEAD_PROG_TIME
+              HALSTEAD_VOLUME
+              NUM_OPERANDS
+              NUM_OPERATORS
+              NUM_UNIQUE_OPERANDS
+              NUM_UNIQUE_OPERATORS
+              LOC_TOTAL
+              label
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 22 label):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.0644   21 LOC_TOTAL
+ 0.0612    1 LOC_BLANK
+ 0.0602   19 NUM_UNIQUE_OPERANDS
+ 0.0592    8 LOC_EXECUTABLE
+ 0.055    12 HALSTEAD_ERROR_EST
+ 0.0548   18 NUM_OPERATORS
+ 0.0546   16 HALSTEAD_VOLUME
+ 0.0533   13 HALSTEAD_LENGTH
+ 0.0531   17 NUM_OPERANDS
+ 0.0484   11 HALSTEAD_EFFORT
+ 0.0484   15 HALSTEAD_PROG_TIME
+ 0.0462    9 HALSTEAD_CONTENT
+ 0.0445    5 CYCLOMATIC_COMPLEXITY
+ 0.044     2 BRANCH_COUNT
+ 0.0436   20 NUM_UNIQUE_OPERATORS
+ 0.0435    6 DESIGN_COMPLEXITY
+ 0.0378   10 HALSTEAD_DIFFICULTY
+ 0.0372   14 HALSTEAD_LEVEL
+ 0.0317    4 LOC_COMMENTS
+ 0.018     7 ESSENTIAL_COMPLEXITY
+ 0.0176    3 LOC_CODE_AND_COMMENT
+
+Selected attributes: 21,1,19,8,12,18,16,13,17,11,15,9,5,2,20,6,10,14,4,7,3 : 21
+
